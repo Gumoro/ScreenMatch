@@ -1,4 +1,4 @@
-# 🎬 ScreenMatch - Plataforma de Filmes (Projeto de Estudo em Java)
+# ScreenMatch - Plataforma de Filmes (Projeto de Estudo em Java)
 
 Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de Programação Orientada a Objetos em Java. 
 Ele simula de maneira simples uma interface de uma plataforma de filmes/séries, como uma "mini Netflix".
@@ -7,7 +7,7 @@ Ele simula de maneira simples uma interface de uma plataforma de filmes/séries,
 
 ---
 
-## 🧠 Objetivos
+## Objetivos
 
 - Aplicar os conceitos de **POO** em Java:
   - Herança
@@ -19,28 +19,28 @@ Ele simula de maneira simples uma interface de uma plataforma de filmes/séries,
 
 ---
 
-## 🗂️ Estrutura
+# Estrutura
 
-### 📦 Pacote `modelos`
+# Pacote `modelos`
 
 - **`Titulo`**: classe base para filmes e séries, com nome, ano, duração, etc.
 - **`Filme`**: herda de `Titulo` e implementa a interface `Classificavel`
 - **`Serie`**: também herda de `Titulo`, mas calcula a duração com base nas temporadas/episódios
 - **`Episodio`**: representa um episódio de série e também é classificável
 
-### 📦 Pacote `calculos`
+# Pacote `calculos`
 
 - **`CalculadoraDeTempo`**: soma a duração total de filmes e séries
 - **`FiltroRecomendacao`**: gera uma recomendação simples com base na classificação
 - **`Classificavel`**: interface que define o método `getClassificacao()`
 
-### 🏁 Classe `Principal`
+# Classe `Principal`
 
 A classe `Principal.java` realiza testes e simula a execução da plataforma, adicionando filmes, séries e episódios para exibir recomendações e calcular o tempo total.
 
 ---
 
-## 💡 Exemplo de Uso
+# Exemplo de Uso
 
 ```java
 Filme meuFilme = new Filme();
@@ -55,7 +55,7 @@ System.out.println(meuFilme.pegaMedia());
 
 ---
 
-## 🔧 Tecnologias
+# Tecnologias
 
 - Java 17+
 - IDEs recomendadas: IntelliJ IDEA, Eclipse, VS Code
@@ -63,7 +63,7 @@ System.out.println(meuFilme.pegaMedia());
 
 ---
 
-## 📁 Estrutura de Pastas
+# Estrutura de Pastas
 
 ```
 src/
@@ -84,10 +84,10 @@ Principal.java
 ```
 
 ---
-- 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-rocha-9b9682167/)
+-  [LinkedIn](https://www.linkedin.com/in/gustavo-rocha-9b9682167/)
 ---
 
-## 📌 Observações
+## Observações
 
 - Projeto criado com fins exclusivamente educacionais;
 - Aberto a contribuições e sugestões para melhorias;
